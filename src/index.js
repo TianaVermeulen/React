@@ -1,12 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+const name = "Tiana"
+
 ReactDOM.render(<div>
-<h1>My Favourite Foods</h1>
-<ul>
-  <li>Burgers</li>
-  <li>Pizza</li>
-  <li>Chocolate</li>
-</ul>
+<h1>My name is {name}</h1>
+<p>My lucky number is 8.</p>
 </div>
 , document.getElementById("root"));
